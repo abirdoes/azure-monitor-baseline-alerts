@@ -3,22 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "contoso"
+      "value": "pge"
     },
     "platformManagementGroup": {
-      "value": "contoso-platform"
+      "value": "PGEE-platform"
     },
     "IdentityManagementGroup": {
-      "value": "contoso-identity"
+      "value": "PGEE-sandboxes"
     },
     "managementManagementGroup": {
-      "value": "contoso-management"
+      "value": "PGEE-sandboxes"
     },
     "connectivityManagementGroup": {
-      "value": "contoso-connectivity"
+      "value": ""
     },
     "LandingZoneManagementGroup": {
-      "value": "contoso-landingzones"
+      "value": "PGEE"
     },
     "enableAMBAConnectivity": {
       "value": "Yes"
@@ -72,7 +72,7 @@
       "value": "id-amba-prod-001"
     },
     "managementSubscriptionId": {
-      "value": ""
+      "value": "a617a60a-a846-4c0a-8ad5-ede81d96c63c"
     },
     "ALZMonitorResourceGroupName": {
       "value": "rg-amba-monitoring-001"
@@ -97,7 +97,7 @@
       ]
     },
     "ALZMonitorActionGroupEmail": {
-      "value": []
+      "value": ["aidan.birdoes@neudesic.com"]
     },
     "ALZLogicappResourceId": {
       "value": ""
